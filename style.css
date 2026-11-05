@@ -1,0 +1,113 @@
+
+/* Diseño general */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff5fa;
+    color: #444;
+    line-height: 1.6;
+}
+
+/* Encabezado */
+header {
+    background-color: #f6cadd;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+header h1 {
+    color: #8d4770;
+    font-size: 35px;
+}
+
+header p {
+    color: #684b60;
+    margin-top: 5px;
+}
+
+/* Menú */
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #a98bc4;
+    padding: 10px 18px;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+nav a:hover {
+    background-color: #8c6eaa;
+}
+
+/* Contenido */
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 25px auto;
+}
+
+section {
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    padding: 25px;
+    border-radius: 15px;
+    border: 2px solid #f1d6e5;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+}
+
+section h2 {
+    color: #a35e87;
+    margin-bottom: 12px;
+}
+
+section h3 {
+    color: #7e91bd;
+    margin-top: 12px;
+}
+
+/* Imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #d9c8ed;
+    color: #59476d;
+    text-align: center;
+    padding: 18px;
+    margin-top: 30px;
+}
+
+/* Diseño para celulares */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 27px;
+    }
+
+    nav a {
+        display: block;
+        margin: 8px auto;
+        width: 80%;
+    }
+
+    main {
+        width: 94%;
+    }
+
+    section {
+        padding: 18px;
+    }
+}
