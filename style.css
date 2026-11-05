@@ -111,3 +111,14 @@ footer {
         padding: 18px;
     }
 }
+#galeria {
+    text-align: center;
+}
+
+.galeria img {
+    width: 200px;
+    height: 160px;
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 12px;
+}
